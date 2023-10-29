@@ -10,4 +10,7 @@ router.get('/sign-Up', UsersController.signUp);
 router.get('/sign-In', UsersController.signIn);
 
 
+router.post('/create', UsersController.create);
+
+
 module.exports = router;
